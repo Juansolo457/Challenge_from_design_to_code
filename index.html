@@ -1,0 +1,80 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Layout Example</title>
+
+<!-- responsive viewport tag, for small screens, its responsive -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">   
+
+
+<!-- Css link -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<a class="rl-logo">
+			<h1>Juando's List</h1><!-- Juandos list vs gregs list because why not.  -->
+		</a>
+		<nav class="top-nav">
+			<a href="" class="nav-link">Post</a>
+			<a href="" class="nav-link">Account</a>
+		</nav>
+	</header>
+
+	<section class="search-section">
+		<form action="#">
+			<label for="search">Search Jobs</label>
+			 <input type="text" id="search" placeholder="Developer, designer, internship...">
+			 <button type="submit" class="search-button">
+			 	<img src="images/magnifying-glass.png" class="magnifying-glass-icon">
+			 </button>
+		</form>
+	</section>
+
+	<nav class="pages">
+		<a class="pages-button">&lt; prev</a>
+		<span class="pages-display"> 1 to 100 of 179</span>
+		<a class="pages-button">next &gt;</a>
+	</nav>
+
+	<main>
+		<ul class="listings">
+			<li class="listing">
+				<span class="listing-date">June 22</span>
+				<a href="#" class="listing-title">Technical Project Manager</a>
+				<span class="listing-location">Midtown East</span>
+			</li>
+			<li class="listing">
+				<span class="listing-date">June 21</span>
+				<a href="#" class="listing-title">Frontend Developer</a>
+				<span class="listing-location">SoHo</span>
+			</li>
+			<li class="listing">
+				<span class="listing-date">June 20</span>
+				<a href="#" class="listing-title">Senior Python Developer / Cofounder</a>
+				<span class="listing-location">Flatiron</span>
+			</li>
+		</ul>
+	</main>
+</body>
+</html>
+
+
+
+<!-- Concepts to re hash:
+
+ask the B man.
+
+line 2, the lang, "en" tag
+section start on 28, why section and what does form action do?? why hashtag symbol?
+is input also self closing?
+line 46 why is li closed with ">" and then closed with a regular "</li>"?
+wow that was longer than I thought, lots to unpack, know where everything 
+is/why its there just not the exact in the deep level with some css declerations. 
+
+
+ -->
